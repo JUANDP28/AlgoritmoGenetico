@@ -1,0 +1,13 @@
+C:\Users\juanc\Documents\GitHub\AlgoritmoGenetico\AlgoritmoGenetico\bin\Debug\netcoreapp3.1\AlgoritmoGenetico.exe
+C:\Users\juanc\Documents\GitHub\AlgoritmoGenetico\AlgoritmoGenetico\bin\Debug\netcoreapp3.1\AlgoritmoGenetico.deps.json
+C:\Users\juanc\Documents\GitHub\AlgoritmoGenetico\AlgoritmoGenetico\bin\Debug\netcoreapp3.1\AlgoritmoGenetico.runtimeconfig.json
+C:\Users\juanc\Documents\GitHub\AlgoritmoGenetico\AlgoritmoGenetico\bin\Debug\netcoreapp3.1\AlgoritmoGenetico.runtimeconfig.dev.json
+C:\Users\juanc\Documents\GitHub\AlgoritmoGenetico\AlgoritmoGenetico\bin\Debug\netcoreapp3.1\AlgoritmoGenetico.dll
+C:\Users\juanc\Documents\GitHub\AlgoritmoGenetico\AlgoritmoGenetico\bin\Debug\netcoreapp3.1\AlgoritmoGenetico.pdb
+C:\Users\juanc\Documents\GitHub\AlgoritmoGenetico\AlgoritmoGenetico\obj\Debug\netcoreapp3.1\AlgoritmoGenetico.csprojAssemblyReference.cache
+C:\Users\juanc\Documents\GitHub\AlgoritmoGenetico\AlgoritmoGenetico\obj\Debug\netcoreapp3.1\AlgoritmoGenetico.csproj.CoreCompileInputs.cache
+C:\Users\juanc\Documents\GitHub\AlgoritmoGenetico\AlgoritmoGenetico\obj\Debug\netcoreapp3.1\AlgoritmoGenetico.AssemblyInfoInputs.cache
+C:\Users\juanc\Documents\GitHub\AlgoritmoGenetico\AlgoritmoGenetico\obj\Debug\netcoreapp3.1\AlgoritmoGenetico.AssemblyInfo.cs
+C:\Users\juanc\Documents\GitHub\AlgoritmoGenetico\AlgoritmoGenetico\obj\Debug\netcoreapp3.1\AlgoritmoGenetico.dll
+C:\Users\juanc\Documents\GitHub\AlgoritmoGenetico\AlgoritmoGenetico\obj\Debug\netcoreapp3.1\AlgoritmoGenetico.pdb
+C:\Users\juanc\Documents\GitHub\AlgoritmoGenetico\AlgoritmoGenetico\obj\Debug\netcoreapp3.1\AlgoritmoGenetico.genruntimeconfig.cache
