@@ -1,34 +1,42 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace AlgoritmoGenetico {
     class Program {
 
-        List<Individuo> poblacion = new List<Individuo>();
-
-        public void GenerarPoblacion () {
-            Console.WriteLine("");
-            Console.WriteLine("=============== GENERANDO POBLACION ===============");
-            Console.WriteLine("");
-            for (int i = 0; i < 100; i++) {
-                poblacion.Add(new Individuo());
-            }
-            Console.WriteLine("");
-            Console.WriteLine("=============== POBLACION GENERADA ===============");
-            Console.WriteLine("");
-        }
-
-        public void ImprimirAptitud () {
-            foreach (Individuo elemento in poblacion) {
-                Console.WriteLine("APTITUD: " + elemento.GetAptitud());
-            }
-        }
         static void Main (string [] args) {
 
-            Program algoritmo = new Program();
-            algoritmo.GenerarPoblacion();
-            algoritmo.ImprimirAptitud();
-            
+            Boolean bandera = true;
+
+            while (bandera) {
+
+                Console.WriteLine("SELECCIONA UNA OPCIÓN:");
+                Console.WriteLine("1) Algortimo 1");
+                Console.WriteLine("2) Algoritmo 2");
+                Console.WriteLine("3) Salir");
+                String opcion = Console.ReadLine();
+
+                switch (opcion) {
+
+                    case "1": Algoritmo1 programa = new Algoritmo1();
+                        programa.Empezar();
+                        break;
+
+                    case "2": Algoritmo2 programa2 = new Algoritmo2();
+                        programa2.Empezar();
+                        break;
+
+                    case "3": Console.WriteLine("");
+                        Console.WriteLine(" NOS VEMOS");
+                        bandera = false;
+                        break;
+
+                    default: Console.WriteLine("");
+                        Console.WriteLine(" POR FAVOR ESCOJA UNA OPCION VALIDA");
+                        Console.WriteLine("");
+                        break;
+                }
+            }
+
         }
     }
 }
