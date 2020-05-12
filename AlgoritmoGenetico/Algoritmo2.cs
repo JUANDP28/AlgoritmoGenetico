@@ -9,7 +9,7 @@ namespace AlgoritmoGenetico {
         List<Individuo2> posiblesPadres = new List<Individuo2>();
         List<Individuo2> padres = new List<Individuo2>();
         List<Individuo2> nuevaPoblacion = new List<Individuo2>();
-        int numeroGeneraciones = 0, tamanioPoblacion = 200,
+        int numeroGeneraciones = 0, tamanioPoblacion = 100,
             generaciones = 700;
         Individuo2 mejor = null;
 
@@ -46,7 +46,7 @@ namespace AlgoritmoGenetico {
 
             while (padres.Count() < 2) {
 
-                if (NumeroRandom(0, 20) != 19) {
+                if (NumeroRandom(0, 20) < 15) {
 
                     if (padres.Contains(ObtenerMejorPadres(posiblesPadres))) {
 
